@@ -1,0 +1,28 @@
+body {font-family: 'Arial';margin: 0;padding: 0; background-color: #f8f8f8}
+@font-face  {font-family: 'Cutesy'; src: url('cutesy.woff') format('woff');}
+@font-face {font-family: 'Coco'; src: url('cocogoose.woff') format('woff');}
+@font-face {font-family: 'Louis'; src: url('louislight.woff') format('woff');}
+@font-face {font-family: 'Vivid'; src: url('vivid.woff') format('woff');}
+@font-face {font-family: 'Cool'; src: url('coolvet.woff') format('woff');}
+.bar {background-color: #e3e2e1; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); position: sticky; top: 0; display: flex; flex-wrap: wrap; justify-content: center;
+align-items: center;}
+.bar h2 {font-size: 23px; color: black; text-decoration: none; text-align: center; font-family: 'Cutesy';}
+.bar ul {list-style: none; display: flex; margin: 0; padding: 0; text-align: center; display: inline; text-decoration: none; color: black; font-weight: 800; }
+.bar li {display: inline; text-decoration: none; color: black; text-align: center; font-size: 15px;}
+.bar a {text-decoration: none; color: black; text-align: center;}
+.bar ul li a:hover {color: #ff9100;}
+
+header {text-align: center; padding: 40px 0; background-image: url('fire.gif'); background-size: cover; height: 250px;}
+header h1 {font-size:90px; color: #f79400;  font-family: 'Cutesy'; font-weight: 100; margin-bottom: 0px; padding: 0px; gap: 3px; margin-top: 20px;}
+header h2 {color: white; font-family: 'Coco'; font-size: 20px; gap: 3px; font-weight: 5;}
+.New {text-align: center; margin-top: 65px; color: black; font-size: 50px; font-family: 'Louis'}
+.recipes {display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; padding: 20px;}
+.recipe {background-color: #fff; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden;  transition: transform 0.5s ease-in-out;}
+.recipe img {width: 600px; height: 400px; display: block;}
+.recipe img:hover {cursor: pointer;}
+.recipe h3 {font-size: 60px; margin: 0; padding-left: 10px; color: #774121; font-family: 'Vivid'; font-weight: 10;}
+.recipe p {padding-bottom: 10px; gap: 20; color: #555; font-size: 20px; padding-left: 10px; font-weight: 50;}
+.food {width: 600px; height: 400px; transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; display: block;}
+.recipe img {transform: translateX(0); opacity: 1;}
+.Contact {text-align: center; padding: 20px; margin-bottom: 0; background-color: #e3e2e1; height: 40px; font-size: 23px; font-weight: 700;}
+.Contact:hover {color: #ff9100; cursor: pointer;}

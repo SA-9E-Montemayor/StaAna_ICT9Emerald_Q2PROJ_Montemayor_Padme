@@ -1,0 +1,21 @@
+body {font-family: 'Arial';margin: 0;padding: 0; background-color: #f8f8f8}
+textarea{width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; box-sizing: border-box;}
+input {width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; box-sizing: border-box;}
+.submit:hover {cursor: pointer;}
+.Contact {text-align: center; padding: 20px; margin-bottom: 0; background-color: #e3e2e1; height: 40px; font-size: 23px; font-weight: 700;}
+.Contact:hover {color: #ff9100; cursor: pointer;}
+.container {max-width: 800px; margin: 20px auto; padding: 20px; background-color: #f9f9f9; border-radius: 8px;}
+.container h1 {font-family: 'Coco'; font-size: 35px; color: #DA6420}
+@font-face  {font-family: 'Cutesy'; src: url('cutesy.woff') format('woff');}
+@font-face {font-family: 'Coco'; src: url('cocogoose.woff') format('woff');}
+@font-face {font-family: 'Louis'; src: url('louislight.woff') format('woff');}
+@font-face {font-family: 'Vivid'; src: url('vivid.woff') format('woff');}
+@font-face {font-family: 'Cool'; src: url('coolvet.woff') format('woff');}
+
+.bar {background-color: #e3e2e1; padding: 10px 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); position: sticky; top: 0; display: flex; flex-wrap: wrap; justify-content: center;
+align-items: center;}
+.bar h2 {font-size: 23px; color: black; text-decoration: none; text-align: center; font-family: 'Cutesy';}
+.bar ul {list-style: none; display: flex; margin: 0; padding: 0; text-align: center; display: inline; text-decoration: none; color: black; font-weight: 800; }
+.bar li {display: inline; text-decoration: none; color: black; text-align: center; font-size: 15px;}
+.bar a {text-decoration: none; color: black; text-align: center;}
+.bar ul li a:hover {color: #ff9100;}

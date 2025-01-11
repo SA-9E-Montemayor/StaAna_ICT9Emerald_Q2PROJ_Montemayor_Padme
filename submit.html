@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Submission Form</title>
+<link rel="stylesheet" href="submit.css">
+
+</head>
+<body>
+<nav>
+ <nav>
+  <div class="nav-container">
+  <div class="bar">
+  <h2 style="font-family: 'Cutesy';">calcifer's kitchen</h2>
+  <ul>
+    <pre>
+   <li><a href="index.html">Home</a></li>   <li><a href="recipeindex.html">Recipe Index</a></li>   <li><a href="submit.html">Submit Recipe</a></li>   
+</pre>
+    </ul>
+    </div>
+    </nav>
+
+<div class="container">
+  <h1>Submit your Studio Ghibli recipes here!</h1>
+  <p>We will only be accepting recipes from <span style=" color: #F16805; font-weight: bold;"> Studio Ghibli films </span>. Please cooperate with our emails after you have submitted your recipe!</p>
+
+   <form id="recipeForm" onsubmit="return confirmSubmission();">
+    <label>Email Address*</label>
+    <input type="email">
+
+    <label>Your Name </label>
+    <input type="text">
+
+    <label>Recipe Name *</label>
+    <input type="text">
+
+    <label>Recipe Description </label>
+    <textarea name="description" rows="5"></textarea>
+
+    <label>Movie of the recipe (Must be Studio Ghibli)</label>
+    <input type="text">
+
+<label>List of Ingredients *</label>
+<textarea rows="4"></textarea>
+
+<label for="steps">Cooking Steps *</label>
+<textarea rows="6"></textarea>
+
+<input class="submit" type="submit" value="Submit">
+  </form>
+</div>
+<p class="Contact">Contact</p>
+
+<script>
+  function confirmSubmission() {
+    alert("Thank you for submitting your recipe! Calcifer will get in touch with you soon!");
+    return true}
+  </script>
+
+</body>
+</html>

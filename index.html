@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav>
+ <nav>
+  <div class="nav-container">
+  <div class="bar">
+  <h2 style="font-family: 'Cutesy';">calcifer's kitchen</h2>
+  <ul>
+    <pre>
+   <li><a href="index.html">Home</a></li>   <li><a href="recipeindex.html">Recipe Index</a></li>   <li><a href="submit.html">Submit Recipe</a></li>   
+</pre>
+    </ul>
+    </div>
+    </nav>
+
+ <header>
+  <h1> welcome to <br> calcifer's kitchen</h1>
+  <h2>⊹ Studio Ghibli Easy Recipes ⊹</h2>
+   </header>
+
+<h2 class="New">FEATURED RECIPES</h2>
+ <div class="recipes">
+ <div class="recipe">
+  <img src="cal.gif" alt="Bacon and Eggs" class="food" onclick="changeImage(this);"></a>
+  <h3>Bacon and Eggs</h3>
+  <b><p>breakfast cooked by our favorite man Howl~♡</p></b>
+ </div>
+  <div class="recipe">
+   <img src="ramen.gif" alt="Ponyo's Ramen" class="food" onclick="changeImage(this);"></a>
+    <h3>Ponyo's Ramen</h3>
+    <b><p>comforting meal during a stormy day~♡</p></b>
+ </div>
+</div>
+</div>
+    
+<script>
+function changeImage(imageElement) {
+imageElement.style.transform = "translateX(-100%)";
+imageElement.style.opacity = 0;
+
+ setTimeout(function() {const image1 = "cal.gif"; const image2 = "howll.gif"; const image3 = "pon.gif"; const image4 = "ramen.gif";
+ if (imageElement.src.includes(image1)) {imageElement.src = image2;} 
+ else if (imageElement.src.includes(image2)) {imageElement.src = image1;} 
+ else if (imageElement.src.includes(image3)) {imageElement.src = image4;}
+ else if (imageElement.src.includes(image4)) {imageElement.src = image3;}
+ imageElement.style.transform = "translateX(100%)";setTimeout(function() 
+ {imageElement.style.transform = "translateX(0)"; imageElement.style.opacity = 1;}, 50);}, 500);}
+    </script>
+</body>
+</html>
+
+<p class="Contact">Contact</p>
+</body>
+</html>
